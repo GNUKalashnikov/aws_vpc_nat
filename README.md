@@ -60,7 +60,8 @@ Key points
 
 
 ## VPC
-![[/pictures/currentVPC.svg]]
+![image](https://raw.githubusercontent.com/GNUKalashnikov/aws_vpc_nat/main/pictures/currentVPC.svg)
+
 **VPC and its resources**
 *Le diagram*
 - Route table rules
