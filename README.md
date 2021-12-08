@@ -60,7 +60,7 @@ Key points
 
 
 ## VPC
-![[currentVPC.svg]]
+![[/pictures/currentVPC.svg]]
 **VPC and its resources**
 *Le diagram*
 - Route table rules
