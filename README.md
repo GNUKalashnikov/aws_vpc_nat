@@ -52,7 +52,7 @@ Key points:
 ### IPv6
 
 The introduced and eventual replacement of IPv4, specifically made in *1995* to tackle the numbers issue imposed by IPv4.
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/IPv6_address_terminology-en.svg/1920px-IPv6_address_terminology-en.svg.png)
+![IPv6](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/IPv6_address_terminology-en.svg/1920px-IPv6_address_terminology-en.svg.png)
 Key points
 - total number of address
 	- 128 bit system
@@ -62,16 +62,28 @@ Key points
 ## VPC
 ![image](https://raw.githubusercontent.com/GNUKalashnikov/aws_vpc_nat/main/pictures/currentVPC.svg)
 
-**VPC and its resources**
-*Le diagram*
-- Route table rules
-- SG rules
+### Route Table
+#### Nat
+![nat](https://github.com/GNUKalashnikov/aws_vpc_nat/blob/main/pictures/nat-rt.png?raw=true)
+#### public
+![public](https://github.com/GNUKalashnikov/aws_vpc_nat/blob/main/pictures/public-rt.png?raw=true)
+#### private
+![public](https://github.com/GNUKalashnikov/aws_vpc_nat/blob/main/pictures/priavte-rt.png?raw=true)
+---
+
+### Security Groups
+#### Nat
+![nat](https://github.com/GNUKalashnikov/aws_vpc_nat/blob/main/pictures/nat-sg.png?raw=true)
+#### public
+![public](https://github.com/GNUKalashnikov/aws_vpc_nat/blob/main/pictures/public-sg.png?raw=true)
+#### private
+![private](https://github.com/GNUKalashnikov/aws_vpc_nat/blob/main/pictures/private-sg.png?raw=true)
 - Subnets cidr blocks
 - connectivity between app and db and app nat db
 
 ## 2 Tier Architecture Deployment
 
-
+![image](https://raw.githubusercontent.com/GNUKalashnikov/aws_vpc_nat/main/pictures/TwoTIer.svg)
 
 
 **2 Tier architecture Deployment in our own VPC**
